@@ -19,5 +19,9 @@ app.get('/', function (req, res){
     }
 );
 
+app.get('/roadmap', function (req, res){
+    res.sendfile('index.html')
+    }
+);
 
 app.listen(3000);
